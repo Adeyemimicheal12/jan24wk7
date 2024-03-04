@@ -1,4 +1,4 @@
-const names = ["Alice", "Bob", "Charlie", "Darlington", "Emma", "Fiona", "George", "Hannah", "Joy", "Julia"];
+const names = ["Alice", "Bob", "Charlie", "Darlington", "Emma", "Fiona", "George", "Hannah", "Joy", "Julia"]
 totalNames = names.length
 check = names.includes("Charlie")
 longest = names.reduce((longest, current) => longest.length > current.length ? longest : current)
